@@ -1,8 +1,6 @@
 const API_KEY = import.meta.env.VITE_API_KEY;
 const BASE_URL = "https://perenual.com/api";
 
-        console.log(API_KEY);
-        console.log(BASE_URL);
 
 export const getAllPlants = async (pages=3) => { // can change how many pages here
     try {
